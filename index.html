@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Color Switcher</title>
+
+    <link rel="stylesheet" href="bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div
+      class="container min-vh-100 d-flex justify-content-center align-items-center"
+    >
+      <div class="card shadow border-0 rounded-4 text-center p-4 p-md-5">
+        <h1 class="fw-bold mb-2">Color Switcher</h1>
+
+        <p class="text-secondary mb-4">اختار لون لتغيير خلفية الصفحة</p>
+
+        <div class="d-flex justify-content-center gap-2 flex-wrap">
+          <button class="btn btn-danger color-btn" id="bg-danger">أحمر</button>
+
+          <button class="btn btn-primary color-btn" id="bg-primary">
+            أزرق
+          </button>
+
+          <button class="btn btn-dark color-btn" id="bg-dark">أسود</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
